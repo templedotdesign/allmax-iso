@@ -1,0 +1,14 @@
+.sub-nav {
+  position: fixed;
+  top: 0;
+  left: 100px;
+  height: 100vh;
+  width: 200px;
+  background-color: var(--dark-blue);
+  z-index: 5;
+  transition: all .3s ease-in-out;
+}
+
+.hidden {
+  transform: translateX(-300px)
+}

@@ -1,0 +1,13 @@
+.nav-item {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav-item .icon {
+  font-size: 2em;
+}
+
+.nav-item.active {
+  color: var(--light-blue);
+}
