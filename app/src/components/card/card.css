@@ -1,0 +1,13 @@
+.card {
+    min-width: 300px;
+    max-width: 33%;
+    border-top: 10px solid var(--light-blue);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    transition: all .3s ease-in-out;
+    padding: 10px;
+}
+
+.card:hover {
+    box-shadow: var(--box-shadow-hover); 
+}

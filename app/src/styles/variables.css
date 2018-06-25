@@ -1,4 +1,6 @@
 :root {
   --dark-blue: #082F5A;
   --light-blue: #4BA2D4;
+  --box-shadow: 0 2px 1px #777;
+  --box-shadow-hover: 6px 10px 6px -6px #777, -6px 10px 6px -6px #777;
 }

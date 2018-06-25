@@ -18,4 +18,5 @@ body {
 .content {
   grid-area: content;
   height: 200vh;
+  padding: 50px;
 }

@@ -4,3 +4,26 @@
   grid-template-columns: 100px auto;
   grid-template-areas: 'nav content';
 }
+
+.nav-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 1.5em;
+  color: var(--dark-blue);
+  z-index: 3;
+}
+
+.nav-btn-white {
+  font-size: 1.5em;
+  margin: 10px;
+  color: white;
+}
+
+.nav-btn p, .nav-btn-white p {
+  cursor: pointer;
+}
+
+.nav-btn p:hover, .nav-btn-white p:hover {
+  color: var(--light-blue);
+} 

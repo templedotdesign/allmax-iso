@@ -9,6 +9,18 @@
   transition: all .3s ease-in-out;
 }
 
+.sub-nav-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.sub-nav-link:hover {
+  color: var(--light-blue);
+}
+
 .hidden {
-  transform: translateX(-300px)
+  transform: translateX(-300px);
 }

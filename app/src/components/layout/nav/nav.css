@@ -12,4 +12,9 @@
   justify-content: space-around;
   align-items: center;
   z-index: 10;
+  transition: all.3s ease-in-out;
+}
+
+.hidden {
+  transform: translateX(-150px);
 }

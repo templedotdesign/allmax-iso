@@ -8,6 +8,10 @@
   font-size: 2em;
 }
 
+.nav-item:hover {
+  color: var(--light-blue);
+}
+
 .nav-item.active {
   color: var(--light-blue);
 }
